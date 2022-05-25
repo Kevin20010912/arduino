@@ -2,8 +2,8 @@
 #include <WiFi.h>
 #include <WiFiClient.h>
 
-const char ssid[] = "CBN-42738-2.4G";
-const char pass[] = "0972211921";    
+const char ssid[] = "Xiaomi_0912";
+const char pass[] = "0920237529";    
 
 // To connect with SSL/TLS:
 // 1) Change WiFiClient to WiFiSSLClient.
@@ -16,7 +16,7 @@ MqttClient mqttClient(wifiClient);
 
 const char broker[] = "test.mosquitto.org";
 int        port     = 1883;
-const char topic[]  = "NTOUEE/0990018";
+const char topic[]  = "NTOUEE/00953103";
 
 const long interval = 1000;
 unsigned long previousMillis = 0;
